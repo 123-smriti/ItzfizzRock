@@ -22,7 +22,7 @@ A single-page, scroll-driven hero for a digital marketing agency. As you scroll,
 6. **Close:** a small upright rocket rises from the bottom and rests under the stats.
 
 
-
+Live URL:- https://123-smriti.github.io/ItzfizzRock/
 
 
 
