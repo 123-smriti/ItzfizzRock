@@ -1,4 +1,4 @@
-// Soft pastel blobs (pink, periwinkle, peach). Radial gradients, no blur filter, slow CSS drift.
+// Soft pastel blobs (pink, periwinkle, peach). Radial gradients, slow CSS drift.
 export default function BackgroundEffects() {
   return (
     <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden bg-[#f7f7fc]">
