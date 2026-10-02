@@ -2,7 +2,7 @@ import { useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-// Mobile browsers resize the viewport when the address bar hides; don't rebuild the pinned timeline for that.
+// Mobile browsers resize the viewport when the address bar hides; 
 ScrollTrigger.config({ ignoreMobileResize: true });
 
 const T = 1.5; // timeline time between one corner and the next
