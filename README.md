@@ -29,5 +29,4 @@ Live URL:- https://123-smriti.github.io/ItzfizzRock/
 
 
 
-Add a license of your choice (for example MIT) before publishing.
 
