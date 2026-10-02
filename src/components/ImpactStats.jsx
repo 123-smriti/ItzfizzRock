@@ -1,8 +1,7 @@
 import StatCard from "./StatCard";
 import { stats } from "../data/stats";
 
-// Intro stats sit at the four corners around the phone (clockwise: TL, TR, BR, BL).
-// Wrapper = position only; the card inside is what GSAP animates.
+
 const spots = [
   "left-4 top-[12vh] md:left-[12%] md:top-[22vh]",
   "right-4 top-[12vh] md:right-[12%] md:top-[22vh]",
