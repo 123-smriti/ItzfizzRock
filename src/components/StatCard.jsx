@@ -1,4 +1,4 @@
-export default function StatCard({ value, title, color, innerRef, className = "" }) {
+export default function StatCard({ value, title,description, color, innerRef, className = "" }) {
   const pct = parseInt(value, 10) / 100;
   return (
     <article
@@ -9,6 +9,7 @@ export default function StatCard({ value, title, color, innerRef, className = ""
       <span className="absolute right-3 top-3 h-1.5 w-1.5 rounded-full" style={{ background: color.bar }} />
       <p className="text-4xl font-extrabold" style={{ color: color.text }}>{value}</p>
       <h3 className="mt-1 text-[13px] font-medium text-slate-500 md:text-sm">{title}</h3>
+      <p className="mt-1 text-[13px] font-medium text-slate-300 md:text-sm">{description}</p>
       <div className="mt-3 h-1 overflow-hidden md:mt-4 rounded-full bg-black/[0.06]">
         <div className="h-full origin-left rounded-full" style={{ background: color.bar, transform: `scaleX(${pct})` }} />
       </div>
