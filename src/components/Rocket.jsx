@@ -1,7 +1,5 @@
 import { useId } from "react";
 
-// Original SVG rocket (nose up). Used big in the hero and tiny in the final layout.
-// The flame flickers with a cheap CSS animation (.flame in index.css).
 export default function Rocket({ className = "" }) {
   const id = useId().replace(/:/g, "");
   return (
